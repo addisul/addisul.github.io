@@ -8,29 +8,29 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation bar -->
-    <nav align = "right">
-            <a href="#section1">Home</a>
-            <a href="#section2">About me</a>
-            <a href="#section3">Contact</a>
-        
-    </nav>
+    <!-- Tab links -->
+<div align = "right" class="tab">
+  <button class="tablinks" onclick="openCity(event, 'Home')">Home</button>
+  <button class="tablinks" onclick="openCity(event, 'Projects')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'About me')">Tokyo</button>
+</div>
 
-    <!-- Main content -->
-    <main>
-        <section id="section1" class="section">
-            <h1 align = "center">Home</h1>
-            <p align = "center">This is some content for Section 1.</p>
-        </section>
+<!-- Tab content -->
+<div id="Home" class="tabcontent">
+  <h3>Home</h3>
+  <p>Welcome to my page.</p>
+</div>
 
-        <section id="section2" class="section">
-            <h1 align = "center">About me</h1>
-            <p align = "center">This is some content for Section 2.</p>
-        </section>
+<div id="Projects" class="tabcontent">
+  <h3>Things i'm working on</h3>
+  <p>_____</p>
+</div>
 
-        <section id="section3" class="section">
-            <h1 align = "center">Contact me</h1>
-        </section>
+<div id="Tokyo" class="About me">
+  <h3>About me</h3>
+  <p>I am an aspiring electrical engineer with a background rooted in robotics. I am passionate about introducing my own nuances, adapting to specific needs, analyzing complex problems, and providing creative solutions. I am interested in using C/C++ in embedded systems.</p>
+</div>
+
     </main>
 
     <!-- Footer with links -->
