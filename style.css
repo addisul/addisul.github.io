@@ -1,9 +1,9 @@
 /* Body and page styling */
 body {
     font-family: Roboto, sans-serif;
-    background-color: #444444 !important;
-    color: #eeeeee !important;
-    line-height: 1.6;
+    background-color: #201a1a !important;
+    color: #5b5b5b !important;
+    line-height: 1.1;
 }
 
 /* Navigation styling */
