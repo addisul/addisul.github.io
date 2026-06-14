@@ -41,6 +41,12 @@ nav ul li a: hover {
     color: #333;
 }
 
+
+tabs {
+    display: flex;
+    gap: 10px    /* controls spacing between the tabs */
+}
+
 /* Section styling */
 main {
     padding: 20px;
@@ -60,10 +66,7 @@ main {
     color: #1B1B1E;
 }
 
-.tabs {
-    display: flex;
-    gap: 15px    /* controls spacing between the tabs */
-}
+
 
 /* Footer styling */
 .footer{
