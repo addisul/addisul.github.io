@@ -75,6 +75,14 @@ main {
     gap: 10px;    /* controls spacing between the tabs */
 }
 
+.container { /* formats the picture and text for about me */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+}
+
 /* Footer styling */
 .footer{
     position: fixed;
