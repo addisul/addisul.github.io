@@ -47,6 +47,10 @@ nav.tabs {
     gap: 10px;    /* controls spacing between the tabs */
 }
 
+.footer {
+color: #D1D1D1;
+}
+
 /* Section styling */
 main {
     padding: 20px;
@@ -80,5 +84,6 @@ main {
     width: 600px ;
     height: 50px ;
     background-color: #f6f6f6 ;
+    color: #D1D1D1;
 }
 
