@@ -60,6 +60,11 @@ main {
     color: #1B1B1E;
 }
 
+.tabs {
+    display: flex;
+    gap: 20px    /* controls spacing between the tabs */
+}
+
 /* Footer styling */
 .footer{
     position: fixed;
