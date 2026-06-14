@@ -62,7 +62,7 @@ main {
 
 .tabs {
     display: flex;
-    gap: 20px    /* controls spacing between the tabs */
+    gap: 15px    /* controls spacing between the tabs */
 }
 
 /* Footer styling */
