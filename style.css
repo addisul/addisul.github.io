@@ -51,6 +51,9 @@ nav.tabs {
 color: #D1D1D1;
 }
 
+.rounded-image {
+     border-radius: 10px;
+}
 /* Section styling */
 main {
     padding: 20px;
